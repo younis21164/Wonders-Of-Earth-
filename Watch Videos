@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wonders Of Earth</title>
+  <style>
+    :root { --accent:#2c9e4b; --bg:#f5fbf7; --card:#ffffff; }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; margin:0; background:var(--bg); color:#0b1530;}
+    header{background:linear-gradient(90deg, rgba(44,158,75,0.15), transparent); padding:40px 20px; text-align:center;}
+    h1{margin:6px 0; font-size:34px; color:#14532d;}
+    p.lead{color:#333; margin-top:0; font-size:18px;}
+    .container{max-width:960px; margin:24px auto; padding:0 16px;}
+    .card{background:var(--card); border-radius:14px; padding:22px; box-shadow:0 6px 20px rgba(12,24,48,0.06); margin-top:20px;}
+    .grid{display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); margin-top:18px;}
+    h2{color:#166534;}
+    a.btn{display:inline-block; padding:12px 18px; border-radius:10px; text-decoration:none; background:var(--accent); color:white; font-weight:600; margin-top:12px;}
+    footer{font-size:14px; color:#444; text-align:center; margin:40px 0 60px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wonders Of Earth</h1>
+    <p class="lead">Exploring Nature, Space & Wonders of Our Planet</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>Wonders Of Earth is a project by <strong>Muhammad Younis</strong> — created to share the breathtaking beauty of nature and the mysteries of the universe. From landscapes to galaxies, this platform brings together the wonders that make our Earth and cosmos truly unique.</p>
+    </section>
+
+    <section class="card">
+      <h2>Topics We Cover</h2>
+      <div class="grid">
+        <div>
+          <h3>🌍 Nature</h3>
+          <p>Landscapes, oceans, forests and the beauty of our planet.</p>
+        </div>
+        <div>
+          <h3>🌌 Space</h3>
+          <p>Discoveries from NASA, James Webb Telescope, and beyond.</p>
+        </div>
+        <div>
+          <h3>📹 Creative Content</h3>
+          <p>Short reels, visuals and inspiring posts for Tier-1 audiences.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>For collaboration or queries, feel free to reach out:</p>
+      <p><strong>Email:</strong> <a href="mailto:younisshoro211@gmail.com">younisshoro211@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Wonders Of Earth — Made with ❤️ by Muhammad Younis
+  </footer>
+</body>
+</html>
